@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="website" />
+    <meta name="description" content="my first website" />
+    <title>My Page</title>
+    <link rel="stylesheet" href="selectors.css" />
+  </head>
+  <body>
+    <div class="conteiner">
+      <div class="info">
+        <img
+          src="https://alexeyosokin.com/upload/medialibrary/3d8/3d8df26bdc1c396c39adb6f7250a3b08.jpg"
+          alt="здесь должно быть Ваша фото"
+          width="200"
+        />
+
+        <p>
+          I am Makov Andrey!
+          <em
+            ><strong
+              >I like to travel on train! I love fishing so much, and i hate
+              onion</strong
+            ></em
+          >
+          <br />
+          I hope that I will can a programmer!
+        </p>
+      </div>
+      <a href="https://my.drom.ru/" target="_blank">drom</a>
+      <a href="https://htmlbase.ru/" target="_blank"> Html </a>
+      <h2>Мои хобби</h2>
+      <ol>
+        <li>Спорт</li>
+        <li>Рыбалка</li>
+        <li>Вязание</li>
+      </ol>
+
+      <h3>ОПЫТ РАБОТЫ</h3>
+      <table>
+        <thead>
+          <th>Название</th>
+          <th>должность</th>
+          <th>год</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Армия</td>
+            <td>Начальник группы</td>
+            <td>2015</td>
+          </tr>
+          <tr>
+            <td>Газпром</td>
+            <td>ведущий инженер</td>
+            <td>2021</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <form class="mytab">
+        <p><strong>Связаться со мной</strong></p>
+        <div class="labelnew">
+          <div form-row>
+          <div class="label">
+            <label>Ваше имя:</label
+            ><input type="text" placeholder="Введите Ваше имя" />
+          </div>
+          <div class="label">
+            <label>Ваш email:</label>
+            <input type="email" placeholder="Введите Ваше email" />
+          </div>
+          </div>
+          <div class="label">
+            <label for="message">Ваше сообщение:</label>
+            <br>
+            <textarea cols="10" rows="5" placeholder="Сообщение"></textarea>
+          </div>
+         <button class="btn">Отправить сообщение</button>
+        </div>
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
